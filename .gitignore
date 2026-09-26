@@ -1,0 +1,11 @@
+# Reports the assessment writes, if you ask it to save one
+Report-*.md
+report-*.md
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+desktop.ini

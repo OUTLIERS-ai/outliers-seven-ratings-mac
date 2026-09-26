@@ -1,0 +1,7 @@
+# What a member checks out must be byte-for-byte what was shipped.
+#
+# git converts line endings on checkout when core.autocrlf is on, which it is on this
+# machine and on most Windows machines. That silently changes every text file between
+# the copy that was verified and the copy that lands, so a checksum can never confirm
+# a member has the real instrument. These files are delivered exactly as committed.
+* -text
